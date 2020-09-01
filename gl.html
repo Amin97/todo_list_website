@@ -6,18 +6,25 @@
   <meta name="author" content="Amin Gulamali">
   <meta name="description" content="List of grocery items">
   <meta name="keywords" content="Grocery, List, Reminders">
-  <meta name="viewport" content="width=device-with, intial-scale=1.0">
 
-  <link rel="stylesheet" href="gl.css">
+  <link rel="stylesheet" href="/grocery_list/gl.css">
+
+  <script type="text/javascript" src="/grocery_list/gl.js"></script>
 
   <title> Grocery List </title>
 </head>
 
 <body>
-  <h3 class="test"> Grocery List </h3>
-  <ul>
-    <li></li>
-  </ul>
+  <div class="center">
+    <h1> Grocery List </h1>
+    <div style="clear: both">
+      <h3 style="float: left" id="item_count">Number of Items: 0</h3>
+      <h3 style="float: left" id="checked_count">Checked Items: 0</h3>
+    <div>
+    <button type="button" onClick="addTODO()">Add Item</button>
+    <ul id="grocery_list">
+    </ul>
+  </div>
 </body>
 
 </html>
