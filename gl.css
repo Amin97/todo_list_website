@@ -1,0 +1,46 @@
+h1{
+   text-decoration: underline;
+   text-align: center;
+   position: relative;
+   right: 15px;
+
+ }
+
+button{
+   /* text-align: right; */
+   position: relative;
+   left: 100px;
+ }
+
+ul{
+   text-align: center;
+ }
+
+li{
+   list-style: none;
+   position: relative;
+   right: 27px;
+ }
+
+label{
+   font-size: 20px;
+ }
+
+#item_count{
+  position: relative;
+  right: 10px;
+}
+
+.checkbox{
+   position: relative;
+   left: 17px;
+ }
+
+.center {
+   margin: 0;
+   position: absolute;
+   top: 15%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+ }
